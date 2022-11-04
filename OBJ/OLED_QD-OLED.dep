@@ -1,0 +1,240 @@
+Dependencies for Project 'OLED', Target 'QD-OLED': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\USER\main.c)(0x63592712)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\SYSTEM\delay\delay.h)(0x6357D65E)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+I (..\HARDWARE\OLED\oled.h)(0x6357D673)
+I (..\USER\gui.h)(0x6357D63D)
+I (..\USER\test.h)(0x63592763)
+I (..\USER\bsp_i2c.h)(0x6357CA58)
+I (..\USER\usart.h)(0x6357BB3C)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\USER\stm32f10x_it.c)(0x6357D63B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (..\USER\stm32f10x_it.h)(0x6357D63A)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+F (..\USER\system_stm32f10x.c)(0x6357D63A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+F (..\USER\test.c)(0x6361163D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\HARDWARE\OLED\oled.h)(0x6357D673)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+I (..\SYSTEM\delay\delay.h)(0x6357D65E)
+I (..\USER\gui.h)(0x6357D63D)
+I (..\USER\test.h)(0x63592763)
+I (..\HARDWARE\OLED\bmp.h)(0x6357D674)
+F (..\USER\gui.c)(0x6357D63D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\gui.o --omf_browse ..\obj\gui.crf --depend ..\obj\gui.d)
+I (..\HARDWARE\OLED\oled.h)(0x6357D673)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+I (D:\mdk531\install index\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\HARDWARE\OLED\oledfont.h)(0x6361163D)
+I (..\SYSTEM\delay\delay.h)(0x6357D65E)
+I (..\USER\gui.h)(0x6357D63D)
+F (..\HARDWARE\OLED\oledfont.h)(0x6361163D)()
+F (..\USER\gui.h)(0x6357D63D)()
+F (..\USER\bsp_i2c.c)(0x63592312)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\bsp_i2c.o --omf_browse ..\obj\bsp_i2c.crf --depend ..\obj\bsp_i2c.d)
+I (..\USER\bsp_i2c.h)(0x6357CA58)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+I (..\SYSTEM\delay\delay.h)(0x6357D65E)
+I (..\USER\usart.h)(0x6357BB3C)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\USER\gui.h)(0x6357D63D)
+I (D:\mdk531\install index\ARM\ARMCC\include\string.h)(0x5EC77604)
+F (..\USER\bsp_i2c.h)(0x6357CA58)()
+F (..\USER\usart.c)(0x6357BB3C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+I (..\USER\usart.h)(0x6357BB3C)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\USER\usart.h)(0x6357BB3C)()
+F (..\USER\test.h)(0x63592763)()
+F (..\HARDWARE\OLED\oled.c)(0x6357D674)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\oled.o --omf_browse ..\obj\oled.crf --depend ..\obj\oled.d)
+I (..\HARDWARE\OLED\oled.h)(0x6357D673)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
+I (D:\mdk531\install index\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (..\SYSTEM\delay\delay.h)(0x6357D65E)
+I (..\HARDWARE\SPI\spi.h)(0x6357D673)
+F (..\HARDWARE\SPI\spi.c)(0x6357D673)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\HARDWARE\SPI\spi.h)(0x6357D673)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+F (..\SYSTEM\delay\delay.c)(0x6357D65E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x6357D65E)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+F (..\SYSTEM\sys\sys.c)(0x6357D65C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x6357D65C)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+F (..\CORE\core_cm3.c)(0x6357D65C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+F (..\CORE\startup_stm32f10x_hd.s)(0x6357D65B)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\STM32F10x_FWLib\src\misc.c)(0x6357D667)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x6357D662)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x6357D661)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x6357D65F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x6357D668)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x6357D65E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\OLED -I ..\HARDWARE\SPI-I.\RTE\_QD-OLED-I"D:\mdk531\install index\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\mdk531\install index\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x6357D668)
+I (..\USER\stm32f10x.h)(0x6357D63C)
+I (..\CORE\core_cm3.h)(0x6357D65B)
+I (D:\mdk531\install index\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (..\USER\system_stm32f10x.h)(0x6357D639)
+I (..\USER\stm32f10x_conf.h)(0x6357D63B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x6357D66F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x6357D66B)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x6357D66A)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x6357D671)
